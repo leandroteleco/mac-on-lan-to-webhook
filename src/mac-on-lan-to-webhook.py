@@ -14,7 +14,7 @@ DEVICE_1_NAME = os.environ.get('DEVICE_2_NAME')
 DEVICE_1_WEBHOOK = os.environ.get('DEVICE_1_WEBHOOK')
 
 # DEVICE 2
-DEVICE_2_MAC = os.environ.get('DEVICE_2_MAC')
+DEVICE_2_MAC = os.environ.get('DEVICE_2_MAC').upper()
 DEVICE_2_NAME = os.environ.get('DEVICE_2_NAME')
 DEVICE_2_WEBHOOK = os.environ.get('DEVICE_2_WEBHOOK')
 
