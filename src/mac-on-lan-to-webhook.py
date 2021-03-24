@@ -9,7 +9,7 @@ import struct
 import binascii
 
 # DEVICE 1
-DEVICE_1_MAC = os.environ.get('DEVICE_1_MAC')
+DEVICE_1_MAC = os.environ.get('DEVICE_1_MAC').upper()
 DEVICE_1_NAME = os.environ.get('DEVICE_2_NAME')
 DEVICE_1_WEBHOOK = os.environ.get('DEVICE_1_WEBHOOK')
 
